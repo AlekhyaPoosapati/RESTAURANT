@@ -509,7 +509,7 @@ body
     .bottomleft
     {
         width: 15%;
-        height: 100vh;
+        height: 150vh;
     }
     .items2
     {
@@ -531,33 +531,7 @@ body
     }
     .items3
     {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        margin-left: 45px;
-    }
-    .items3 > .imagescombo > img
-    {
-        width: 200px;
-        height: 100px;
-    }
-    .items3 > .combos > p
-    {
-        font-size: 10px;
-        margin-top: -5px;
-    }
-    .items3 > .imagescombo 
-    {
-        order: 1;
-    }
-    .items3 > .combos
-    {
-        order: 2;
-    }
-    .items > .buttons
-    {
-        order: 3;
+       display: none;
     }
 
     .items4
@@ -606,7 +580,7 @@ body
     .bottomright
     {
         width: 85%;
-        height: 100vh;
+        height: 150vh;
     }
 }
 @media all and (max-width:375px)
@@ -629,16 +603,15 @@ body
     .bottomleft
     {
         width: 15%;
-        height: 100vh;
+        height: 150vh;
     }
     .bottomright
     {
-        height: 100vh;
+        height: 150vh;
     }
     .items3
     {
-        width: 200px;
-        height: 100px;
+        display: none;
     }
 }
 @media all and (max-width:320px)
@@ -665,8 +638,7 @@ body
     }
     .items3 > .imagescombo > img 
     {
-        width: 150px;
-        height: 100px;
+        display: none;
     }
     .items4 > .imagescombo > img
     {
