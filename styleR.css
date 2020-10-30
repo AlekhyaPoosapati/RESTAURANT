@@ -509,7 +509,7 @@ body
     .bottomleft
     {
         width: 15%;
-        height: auto;
+        height: 150vh;
     }
     .items2
     {
@@ -579,7 +579,7 @@ body
     .bottomright
     {
         width: 85%;
-        height: auto;
+        height: 150vh;
     }
 }
 @media all and (max-width:375px)
@@ -602,11 +602,11 @@ body
     .bottomleft
     {
         width: 15%;
-        height: auto;
+        height: 150vh;
     }
     .bottomright
     {
-        height: 195vh;
+        height: 150vh;
     }
     .items3{
         display: none;
