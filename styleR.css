@@ -1,0 +1,474 @@
+
+body
+{
+    margin: 0;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 200vh;
+    border-right: 0.5px solid #080B2D;;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 200vh;
+}
+.top
+{
+    width: 100%;
+    height: 10vh;
+}
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 190vh;
+}
+.bottomleft
+{
+    width: 7%;
+    height: 190vh;
+}
+.bottomright
+{
+    width: 93%;
+    height: 190vh;
+    background-color: white;
+}
+.quote1
+{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.quote2
+{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: -55px;
+}
+.finalorder
+{
+    width: 100%;
+    height: 90vh;
+}
+.calculation
+{
+    width: 100%;
+    height: 110vh;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #080B2D;
+}
+.brandname
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.brandname > p
+{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px 4px 8px red;
+}
+.navright
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 5px;
+}
+.userlogo
+{
+    border-radius: 50%;
+}
+.searchbar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    width: 80%;
+    padding: 5px;
+    border-radius: 20px;
+}
+::placeholder
+{
+    padding-left: 15px;
+    color: #080B2D;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+.inputbox
+{
+    border: none;
+}
+.bottomleft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #080B2D;
+}
+.options
+{
+    transform: rotate(270deg);
+    transition: transform .4s ease;
+    
+}
+.options:hover
+{
+   zoom: 1.2;
+   transform: 0.5s ease;
+}
+.experience
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+.exp
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exp > button
+{
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #080B2D;
+    box-shadow: 0 13px 10px -3px black; 
+}
+.exp > button:hover
+{
+    zoom: 1.2;
+    transform: 0.5s ease;
+    background-color: white;
+}
+.exp > button > i:hover
+{
+    color: black;
+}
+.exp > button > i
+{
+    color: white;
+}
+.links
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    color: white;
+}
+.links:hover
+{
+   color: red;
+}
+.headings
+{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Caudex', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.headings > a
+{
+    text-decoration: none; 
+    color: black;
+}
+.first
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: hidden;
+    transition: transform 0.7s;
+    padding: 5px;
+    margin-top: 30px;
+}
+.first::-webkit-scrollbar 
+{
+    display: none;
+}
+.first > a
+{
+    font-family: 'Caudex', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.items
+{
+    
+    padding: 3px 50px;
+    border-radius: 15px;
+}
+.items > a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+.second
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    overflow-y: hidden;
+    transition: transform 0.7s;
+}
+.second::-webkit-scrollbar 
+{
+    display: none;
+}
+.items1 > img
+{
+    border-radius: 20px;
+}
+.first > div:hover
+{
+    transform: scale(1.1);
+}
+.items1 > h6
+{
+    text-align: center;
+    margin-top: 0;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+}
+.items1 > p
+{
+    text-align: center;
+    margin-top: -50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+}
+.items1 > .money
+{
+    margin-top: -20px;
+}
+.items2
+{
+    border-radius: 30px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #fcbad3;
+}
+.combos > p
+{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+.imagescombo > img
+{
+    border-radius: 20px;
+}
+.buttons > button
+{
+    border-radius: 20px;
+    padding: 7px 20px;
+    background-color: #ff2e63;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+    box-shadow: 3px 3px 9px 4px pink ;
+}
+.buttons > button:hover
+{
+    cursor: pointer;
+    transition: 0.7s ease;
+    zoom: 1.1;
+}
+.items3
+{
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #aa96da;
+}
+.items4
+{
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #a8d8ea;
+}
+.finalorder{
+    margin:0px;
+}
+.order1 > img{
+    height: 40px;
+    border-radius: 10px;
+}
+.order1 > img{
+    height: 40px;
+    border-radius: 10px;
+}
+.order3 > img{
+    height: 40px;
+    border-radius: 10px;
+}
+.order1{
+    display:flex;
+    flex-direction: row;
+    background: linear-gradient(to right,#fff,#FFA07A);
+    font-family: 'Lobster Two', cursive;
+    align-items: center;
+    margin:8px;
+    justify-content: space-around;
+    border-radius: 6px;
+    border: 1px solid none;
+    box-shadow: #aa96da;
+}
+.order1:hover{
+    transform: scale(1.1);
+}
+.sub-total{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right,#fff,#FFA07A);
+    font-family: 'Lobster Two', cursive;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.charges{
+    border: 1px solid none;
+    border-radius: 6px;
+    margin:8px;
+}
+.charges:hover{
+        transform: scale(1.1);
+}
+.order{
+    display: flex;
+    background: linear-gradient(to right, #373b44, #4286f4);
+    border: 1px solid none;
+    border-radius: 6px;
+    margin:8px;
+    margin-top: 5px;
+}
+.order:hover{
+    transform: scale(1.1);
+}
+.order > h3
+{
+    color: white;
+    margin-left: 90px;
+}
+.total-cost{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #a8c0ff, #3f2b96);
+    justify-content: space-between;
+    border: 1px solid none;
+    border-radius: 6px;
+    margin:8px;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 40px;
+}
+.total-cost > p4{
+    padding-left: 10px;
+    padding-top: 18px;
+}
+.total-cost:hover{
+    transform: scale(1.1);
+}
+.check{
+    margin-right: 5px;
+}
+.check>button:hover{
+    transform: scale(1.1);
+}
+.check > button{
+    background-color: #ff2e63;
+    color:black;
+    font-family: 'Patrick Hand', cursive;font-weight: bold;
+    font-size: medium;
+    padding:12px 65px;
+    border-radius: 10px;
+    margin-left:90px;
+    border: none;
+}
+.check > div > h2{
+    font-family: 'Bad Script', cursive;
+   margin-top: 20px;
+   padding-left: 12px;
+}
+.check .smile > img{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.last{
+    margin-top: 80px;
+}
+.last > img
+{
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+@media (max-width:425px) and (min-width:320px)
+{
+    .right
+    {
+        display: none;
+    }
+}
