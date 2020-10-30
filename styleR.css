@@ -465,10 +465,197 @@ body
     margin-left: 10px;
     border-radius: 20px;
 }
-@media (max-width:425px) and (min-width:320px)
+.orderedclass
 {
+    display: none;
+}
+@media all and  (min-width:320px) and (max-width:425px)
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
     .right
     {
         display: none;
+    }
+    .left
+    {
+        width: 100%;
+    }
+    .inputbox
+    {
+        display: none;
+    }
+    .searchbar
+    {
+        width: 10%;
+        background-color: #080B2D;
+        border: none;
+    }
+    .searchbar > i 
+    {
+        color: white;
+        font-size: 25px;
+        margin-left: 60px;
+    }
+    .userlogo
+    {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .bottomleft
+    {
+        width: 15%;
+        height: 235vh;
+    }
+    .items2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 45px;
+    }
+    .items2 > .imagescombo > img
+    {
+        width: 200px;
+        height: 100px;
+    }
+    .items2 > .combos > p
+    {
+        font-size: 10px;
+        margin-top: -5px;
+    }
+    .items3
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 45px;
+    }
+    .items3 > .imagescombo > img
+    {
+        width: 200px;
+        height: 100px;
+    }
+    .items3 > .combos > p
+    {
+        font-size: 10px;
+        margin-top: -5px;
+    }
+    .items3 > .imagescombo 
+    {
+        order: 1;
+    }
+    .items3 > .buttons 
+    {
+        order: 3;
+    }
+    .items3 > .combos
+    {
+        order: 2;
+    }
+
+    .items4
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 45px;
+    }
+    .items4 > .imagescombo > img
+    {
+        width: 200px;
+        height: 100px;
+    }
+    .items4 > .combos > p
+    {
+        font-size: 10px;
+        margin-top: -5px;
+    }
+    .quote1
+    {
+        font-size: 20px;
+    }
+    .quote2
+    {
+        font-size: 30px;
+        margin-top: -35px;
+    }
+    .first > a
+    {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .first
+    {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .orderedclass
+    {
+        display: flex;
+        margin-top: -80px;
+        margin-left: 310px;
+    }
+    .bottomright
+    {
+        width: 85%;
+    }
+}
+@media all and (max-width:375px)
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .left
+    {
+        width: 100%;
+    }
+    .orderedclass
+    {
+        display: flex;
+        margin-top: -80px;
+        margin-left: 280px;
+    }
+}
+@media all and (max-width:320px)
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .left
+    {
+        width: 100%;
+    }
+    .orderedclass
+    {
+        display: flex;
+        margin-top: -80px;
+        margin-left: 230px;
+    }
+    .items2 > .imagescombo > img
+    {
+        width: 150px;
+        height: 100px;
+    }
+    .items3 > .imagescombo > img
+    {
+        width: 150px;
+        height: 100px;
+    }
+    .items4 > .imagescombo > img
+    {
+        width: 150px;
+        height: 100px;
     }
 }
