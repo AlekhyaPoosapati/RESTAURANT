@@ -509,7 +509,7 @@ body
     .bottomleft
     {
         width: 15%;
-        height: 150vh;
+        height: 100vh;
     }
     .items2
     {
@@ -628,7 +628,7 @@ body
     .bottomleft
     {
         width: 15%;
-        height: 150vh;
+        height: 100vh;
     }
 }
 @media all and (max-width:320px)
