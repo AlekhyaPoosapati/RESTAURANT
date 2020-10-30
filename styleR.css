@@ -509,7 +509,7 @@ body
     .bottomleft
     {
         width: 15%;
-        height: 195vh;
+        height: 150vh;
     }
     .items2
     {
@@ -601,7 +601,7 @@ body
     {
         display: flex;
         margin-top: -80px;
-        margin-left: 200px;
+        margin-left: 210px;
     }
     .bottomright
     {
